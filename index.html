@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFICADOR</title>
+    <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body>
+
+    
+</style>
+<body>
+	<div id="jogos">
+		<h2>
+			Mega-sena
+			<br>
+			<span>$$$</span>
+		</h2>
+		<div class="linha">
+			<div class="resultado-online mb20 hide">
+				<p class="numero-concurso"></p>
+				<p class="data-concurso"></p>
+				<p class="dezenas-concurso"></p>
+			</div>
+		</div>
+		<div class="linha">
+			<div class="col-4">
+				<input type="number" maxlength="2" min="1" max="60" class="full-width dezenas">
+			</div>
+			<div class="col-4">
+				<input type="number" maxlength="2" min="1" max="60" class="full-width dezenas">
+			</div>
+			<div class="col-4">
+				<input type="number" maxlength="2" min="1" max="60" class="full-width dezenas">
+			</div>
+		</div>
+		<div class="linha">
+			<div class="col-4">
+				<input type="number" maxlength="2" min="1" max="60" class="full-width dezenas">
+			</div>
+			<div class="col-4">
+				<input type="number" maxlength="2" min="1" max="60" class="full-width dezenas">
+			</div>
+			<div class="col-4">
+				<input type="number" maxlength="2" min="1" max="60" class="full-width dezenas">
+			</div>
+		</div>
+		<button id="verificar-offline" class="full-width">
+			VERIFICAR RESULTADO - OFFLINE
+		</button>
+		<button id="verificar-online" class="full-width">
+			VERIFICAR RESULTADO - ONLINE
+		</button>
+	</div>
+	<div class="assinatura">
+		
+		<strong>
+			
+		</strong>
+		<br>
+	
+		<a href="" target="_blank" rel="noopener noreferrer">
+			
+		</a>
+	</div>
+</body>
+
+<script>
+	const jogos = [
+		{
+			jogador: 'Jogador_1',
+			jogos: [
+                [01,16,23,28,39,44,47,50,55,59],
+				[05,17,18,30,32,38,43,49,56,60],
+				[03,10,15,19,24,27,37,46,48,49],
+			]
+		},
+		{
+			jogador: 'Jogador_2',
+			jogos: [
+            [05,17,18,30,32,38,43,49,56,60],
+            [02,04,06,50,51,53,54,57,58,47],
+			]
+		},
+	]
+
+</script>
+</html>
+<script src="./script.js"></script>
+</body>
+</html>

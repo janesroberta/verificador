@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: borde-box;
+    font-family: sans-serif;
+}
+#jogos{
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 85%;
+    border: 1px solid #ccc;
+    padding: 10px;
+
+}
+
+#jogos h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.resultado{
+    margin-bottom: 30px;
+}
+.full-width{
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 3px;
+}
+.col-4:last-child{
+    margin-right: 0;
+}
+.col-4{
+    margin-right: 2%;
+    width: 32%;
+    float: left;
+}
+.jogador{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.jogador > div{
+    display: block;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.jogos{
+    display: block;
+}
+.jogos > div{
+    display: block;
+    margin-bottom: 7px;
+}
+.jogos .jogo{
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 7px;
+    display: inline-block;
+    margin-right: 7px;
+    font-weight: bold;
+    width: 35px;
+    text-align: center;
+    box-shadow: 1px 1px 1px #717171;
+    margin-bottom: 7px;
+}
+.jogos .jogo.error{
+    background: red;
+    border-color: red;
+    color: #fff;
+}
+.jogos .jogo.success{
+    background: green;
+    border-color: green;
+    color: #fff;
+}
+.hide{
+    display: none;
+    opacity: 0;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.assinatura{
+    text-align: center;
+    margin-bottom: 30px;
+}
